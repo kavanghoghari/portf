@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  
+    .text-gray-400.body-font {
+      animation: gradientAnimation 60s ease infinite;
+      background: linear-gradient(-135deg,
+        #000033, #000066, #000099, #0000CC, #0000FF, 
+        #000033, #001966, #002C99, #0040CC, #0054FF, 
+        #000033, #001966, #002C99, #0040CC, #0054FF, 
+        #000033, #220066, #440099, #6600CC, #8800FF, 
+        #000033, #220066, #440099, #6600CC, #8800FF,
+        #000033, 
+        #003333, #005555, #007777, #009999, #00BBBB, 
+        #330033, #550055, #770077, #990099, #BB00BB, 
+        #330000 
+      );
+      background-size: 400% 400%;
+    }
+  </style>
+  
+  
+</head>
+
+<body>
+  
+  <section class="text-gray-400 body-font" style="background: linear-gradient(135deg, #d8d8d8, #ededed);">
+  
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+</svg>
+
+        <span class="ml-3 text-xl">My Portfolio</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-white"> Home </a>
+        <a href="skills.html" class="mr-5 hover:text-white"> Skills </a>
+        <a href="project.html" class="mr-5 hover:text-white">Project</a>
+        
+     
+      </nav>
+     
+    </div>
+  </header>
+<!-- header over-->
+<section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Education</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">In my educational journey, I've embraced continuous learning, expanding my knowledge through formal education, self-directed study, and hands-on experience. My dedication to staying informed and mastering new concepts drives my professional and personal growth.</p>
+      </div>
+      <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+        <table class="table-auto w-full text-left whitespace-no-wrap">
+          <thead>
+            <tr>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">Level</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Institute</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Year of passing out</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">Percentage/CGPA</th>
+              <th class="w-10 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tr rounded-br"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-3">Secondary </td>
+              <td class="px-4 py-3">K.P.E.S</td>
+              <td class="px-4 py-3">2018</td>
+              <td class="px-4 py-3 text-lg text-white">89</td>
+              <td class="w-10 text-center">
+                
+              </td>
+            </tr>
+            <tr>
+              <td class="border-t-2 border-gray-800 px-4 py-3">Higher Secondary </td>
+              <td class="border-t-2 border-gray-800 px-4 py-3">Nachikketa</td>
+              <td class="border-t-2 border-gray-800 px-4 py-3">2021</td>
+              <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">85</td>
+              <td class="border-t-2 border-gray-800 w-10 text-center">
+                
+              </td>
+            </tr>
+            <tr>
+              <td class="border-t-2 border-gray-800 px-4 py-3">College</td>
+              <td class="border-t-2 border-gray-800 px-4 py-3">G.M.I.T</td>
+              <td class="border-t-2 border-gray-800 px-4 py-3">2025</td>
+              <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">8.30*</td>
+              <td class="border-t-2 border-gray-800 w-10 text-center">
+                
+              </td>
+            </tr>
+        
+          </tbody>
+        </table>
+      </div>
+     
+    </div>
+  </section>
+<!-- body over-->
+
+<footer class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+</svg>
+    </a>
+    <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">My portfolio
+      <a href="" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@kavanghoghari</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="ml-3 text-gray-400">
+        <a href="https://www.linkedin.com/in/kavan-ghoghari-345501222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg> </a>
+      </a>
+    </span>
+  </div>
+</footer>
+</section>
+
+</body>
+</html>

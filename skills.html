@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <style>
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 100% 50%;
+          }
+        }
+      
+        .text-gray-400.body-font {
+          animation: gradientAnimation 20s ease infinite;
+          background: linear-gradient(-135deg,
+            #330000, #330800, #330F00, #331500, #331C00, #332200, #332900, #333000,  
+            #303000, #2D3000, #2A3000, #273000, #243000, #213000, #1E3000, #1B3000,  
+            #183000, #153000, #123000, #0F3000, #0C3000, #093000, #063000, #033000,  
+            #000033, #080033, #0F0033, #150033, #1C0033, #220033, #290033, #300033,  
+            #300030, #30002B, #300027, #300022, #30001E, #300019, #300015, #300010,  
+            #300C00, #300700, #300300, #330000, #330800, #330F00, #331500, #331C00,  
+            #332200, #332900, #333000, #303000, #2D3000, #2A3000, #273000, #243000,  
+            #213000, #1E3000, #1B3000, #183000, #153000, #123000, #0F3000, #0C3000,  
+            #093000, #063000, #033000, #000000);
+          background-size: 400% 400%;
+        }
+      </style>
+      
+  
+      
+  <section class="text-gray-400 body-font" style="background: linear-gradient(135deg, #d8d8d8, #ededed);">
+  
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+</svg>
+
+        <span class="ml-3 text-xl">My Portfolio</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-white"> Home </a>
+        <a href="project.html" class="mr-5 hover:text-white">Project</a>
+        <a href="education.html" class="mr-5 hover:text-white"> Education </a>
+     
+      </nav>
+      
+    </div>
+  </header>
+<!-- header over-->
+<section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">My Skills</h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">I have spent years honing my skills in software development, continuously learning new programming languages along the way.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+          <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">BASIC FRONT-END</h2>
+          <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>HTML
+            </a>
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>CSS
+            </a>
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Tailwind CSS
+            </a>
+            
+          </nav>
+        </div>
+        <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+          <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">FRONT-END</h2>
+          <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>JAVASCRIPT
+            </a>
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>REACT (basic)
+            </a>
+            </nav>
+        </div>
+        <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+          <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">BACK-END</h2>
+          <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>PHP
+            </a>
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>JAVA(intermediate)
+            </a>
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>JAVASCRIPT
+            </a>
+            </nav>
+        </div>
+        <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+          <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">DATABASE</h2>
+          <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2">
+            <a>
+              <span class="bg-gray-800 text-indigo-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>MYSQL
+            </a>
+            
+          </nav>
+        </div>
+      </div>
+      </div>
+  </section>
+<!-- body over-->
+
+<footer class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+</svg>
+    </a>
+    <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">My portfolio
+      <a href="" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@kavanghoghari</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="ml-3 text-gray-400">
+        <a href="https://www.linkedin.com/in/kavan-ghoghari-345501222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg> </a>
+      </a>
+    </span>
+  </div>
+</footer>
+</section>
+
+</body>
+</html>
